@@ -2,6 +2,12 @@
 name = "openapi-ops-mut"
 version = "1.0.0"
 edition = "2024"
+description = "Provides `operations_mut` to https://github.com/glademiller/openapiv3"
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/hjr3/openapi-ops-mut"
+repository = "https://github.com/hjr3/openapi-ops-mut"
+documentation = "https://github.com/hjr3/openapi-ops-mut"
+keywords = ["openapi", "v3"]
 
 [dependencies]
 openapiv3 = { version = "2.0.0", features = ["skip_serializing_defaults"] }
